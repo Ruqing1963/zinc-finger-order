@@ -1,0 +1,6 @@
+# finger_order.py (tested with torch 2.5.1, CPU build, float64)
+torch
+# spectral_fibres.py uses numpy only for floating-point determinants
+numpy
+# make_figures.py
+matplotlib

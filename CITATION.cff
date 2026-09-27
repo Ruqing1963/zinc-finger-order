@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this paper, its code or its data, please cite it as below."
+title: "Phenotypic insufficiency of local protein representations: fibre-preserving rearrangements of human C2H2 zinc-finger arrays reorder DNA-recognition residues under an invariant 25-spectrum"
+abstract: >-
+  For the 17 reviewed human C2H2 zinc-finger proteins with a non-trivial 25-fibre, 1,178
+  distinct fibre-mates were drawn as random Eulerian trails. In all of them the multiset of
+  fingers and the output of a window-25 local encoder are unchanged; 883 place different
+  DNA-recognition residues (helix positions -1, 2, 3, 6) at some array position.
+type: software
+authors:
+  - family-names: Chen
+    given-names: Zhengyi
+    email: chenzhengyi@glmc.edu.cn
+    affiliation: "School of Pharmacy, Guilin Medical University, Guilin, China"
+  - family-names: Chen
+    given-names: Ruqing
+    email: ruqing@hotmail.com
+    affiliation: "GUT Geoservice Inc., Montreal, Canada"
+repository-code: "https://github.com/Ruqing1963/zinc-finger-order"
+date-released: 2026-09-25
+version: 1.0.0
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - C2H2 zinc finger
+  - KRAB zinc-finger proteins
+  - DNA-binding specificity
+  - spectral fibre
+  - protein representation
+  - ZNF91
+  - ZNF721
+preferred-citation:
+  type: article
+  title: "Phenotypic insufficiency of local protein representations: fibre-preserving rearrangements of human C2H2 zinc-finger arrays reorder DNA-recognition residues under an invariant 25-spectrum"
+  authors:
+    - family-names: Chen
+      given-names: Zhengyi
+    - family-names: Chen
+      given-names: Ruqing
+  publisher:
+    name: Zenodo
+  year: 2026

@@ -1,0 +1,80 @@
+=== 17 C2H2 zinc-finger proteins with N_25 > 1; 300 random trails each ===
+    KLF18    L= 1052 kappa= 54 log2N25= 12.3 fingers   3 (distinct specificity residues   3); distinct mates  285, with a new finger order    0; max array positions changed   0, max residues changed  164
+    ZNF208   L= 1280 kappa= 95 log2N25= 21.2 fingers  36 (distinct specificity residues  13); distinct mates  300, with a new finger order  300; max array positions changed  33, max residues changed  741
+    ZNF254   L=  659 kappa= 38 log2N25=  1.0 fingers  13 (distinct specificity residues   7); distinct mates    1, with a new finger order    1; max array positions changed   2, max residues changed    6
+    ZNF283   L=  679 kappa= 28 log2N25=  1.0 fingers  15 (distinct specificity residues   8); distinct mates    1, with a new finger order    1; max array positions changed   6, max residues changed   65
+    ZNF347   L=  839 kappa= 35 log2N25=  2.0 fingers  17 (distinct specificity residues  11); distinct mates    3, with a new finger order    3; max array positions changed   6, max residues changed   66
+    ZNF594   L=  807 kappa= 30 log2N25=  1.0 fingers  21 (distinct specificity residues  14); distinct mates    1, with a new finger order    1; max array positions changed   2, max residues changed  200
+    ZNF595   L=  648 kappa= 26 log2N25=  2.0 fingers  17 (distinct specificity residues  15); distinct mates    3, with a new finger order    3; max array positions changed   9, max residues changed   60
+    ZNF676   L=  588 kappa= 38 log2N25=  1.0 fingers  14 (distinct specificity residues  11); distinct mates    1, with a new finger order    1; max array positions changed   2, max residues changed    6
+    ZNF709   L=  641 kappa= 34 log2N25=  4.6 fingers  19 (distinct specificity residues  13); distinct mates   23, with a new finger order   22; max array positions changed   6, max residues changed   14
+    ZNF721   L=  911 kappa= 32 log2N25=  8.4 fingers  23 (distinct specificity residues  16); distinct mates  198, with a new finger order  196; max array positions changed  17, max residues changed  173
+    ZNF729   L= 1252 kappa= 42 log2N25=  9.8 fingers  34 (distinct specificity residues  20); distinct mates  246, with a new finger order  245; max array positions changed  23, max residues changed  182
+    ZNF761   L=  746 kappa= 27 log2N25=  2.0 fingers  17 (distinct specificity residues  13); distinct mates    3, with a new finger order    3; max array positions changed  11, max residues changed  111
+    ZNF840P  L=  716 kappa= 33 log2N25=  1.0 fingers  18 (distinct specificity residues  14); distinct mates    1, with a new finger order    1; max array positions changed   2, max residues changed   12
+    ZNF888   L=  718 kappa= 26 log2N25=  1.0 fingers  17 (distinct specificity residues  16); distinct mates    1, with a new finger order    1; max array positions changed   2, max residues changed    6
+    ZNF91    L= 1191 kappa= 51 log2N25=  5.0 fingers  31 (distinct specificity residues  19); distinct mates   31, with a new finger order   28; max array positions changed  17, max residues changed  139
+    ZNF93    L=  620 kappa= 31 log2N25=  2.6 fingers  16 (distinct specificity residues  12); distinct mates    5, with a new finger order    5; max array positions changed   9, max residues changed   55
+    ZNF99    L=  864 kappa= 49 log2N25=  6.4 fingers  21 (distinct specificity residues  10); distinct mates   75, with a new finger order   72; max array positions changed   9, max residues changed  108
+
+    1178 distinct fibre-mates in 17 proteins; 883 change the order of specificity residues; finger multisets identical and window-25 CNN outputs identical in all
+
+=== case study ZNF91: 31 fingers; the mate with the most reordered fingers ===
+      finger  1 at  210- 232: helix S WSSTLTN  T WSSTLTN   (-1,2,3,6) S WSTN  T WSTN
+      finger  2 at  268- 288: helix S WSSTLTR  T WSSTLTR   (-1,2,3,6) S WSTR  T WSTR
+      finger  3 at  296- 316: helix S HSSTLAK  T RSSTLAK   (-1,2,3,6) S HSTK  T RSTK   <- moved
+      finger  4 at  324- 344: helix S RSSTLAK  T NSSTLAN   (-1,2,3,6) S RSTK  T NSTN   <- moved
+      finger  5 at  352- 372: helix S NSSTLAN  T RLSTLTK   (-1,2,3,6) S NSTN  T RSTK   <- moved
+      finger  6 at  380- 400: helix S RLSTLTK  T RSSNLTI   (-1,2,3,6) S RSTK  T RSNI   <- moved
+      finger  7 at  408- 428: helix S RSSNLTI  T WSSSLTK   (-1,2,3,6) S RSNI  T WSSK   <- moved
+      finger  8 at  436- 456: helix S WSSSLTK  T WSSTLTR   (-1,2,3,6) S WSSK  T WSTR   <- moved
+      finger  9 at  464- 484: helix S WSSTLTR  T HSSALAK   (-1,2,3,6) S WSTR  T HSAK   <- moved
+      finger 10 at  492- 512: helix S QSSTLTK  T NSSTLAN   (-1,2,3,6) S QSTK  T NSTN   <- moved
+      finger 11 at  548- 568: helix S QFSTLTT  T RLSTLTK   (-1,2,3,6) S QSTT  T RSTK   <- moved
+      finger 12 at  576- 596: helix S HSSSLST  T RSSNLTI   (-1,2,3,6) S HSST  T RSNI   <- moved
+      finger 13 at  604- 624: helix S WSSTLRR  T WSSSLTK   (-1,2,3,6) S WSTR  T WSSK   <- moved
+      finger 14 at  632- 652: helix S HSSALAK  T WSSTLTR   (-1,2,3,6) S HSAK  T WSTR   <- moved
+      finger 15 at  660- 680: helix S NSSTLAN  T QSSTLTK   (-1,2,3,6) S NSTN  T QSTK   <- moved
+      finger 16 at  688- 708: helix S RLSTLTK  T QFSTLTT   (-1,2,3,6) S RSTK  T QSTT   <- moved
+      finger 17 at  716- 736: helix S RSSNLTI  T HSSSLST   (-1,2,3,6) S RSNI  T HSST   <- moved
+      finger 18 at  744- 764: helix S WSSSLTK  T WSSTLRR   (-1,2,3,6) S WSSK  T WSTR   <- moved
+      finger 19 at  772- 792: helix S WSSTLTR  T HSSTLAK   (-1,2,3,6) S WSTR  T HSTK   <- moved
+      finger 20 at  800- 820: helix S RSSTLTK  T RSSTLTK   (-1,2,3,6) S RSTK  T RSTK
+      finger 21 at  828- 848: helix S HSSALAK  T HSSALAK   (-1,2,3,6) S HSAK  T HSAK
+      finger 22 at  856- 876: helix S QSSNLTT  T QSSNLTT   (-1,2,3,6) S QSNT  T QSNT
+      finger 23 at  912- 932: helix S QPSHLTT  T QPSHLTT   (-1,2,3,6) S QSHT  T QSHT
+      finger 24 at  940- 960: helix S QSSTLTT  T QSSTLTT   (-1,2,3,6) S QSTT  T QSTT
+      finger 25 at  968- 988: helix S KSSTLTE  T KSSTLTE   (-1,2,3,6) S KSTE  T KSTE
+      finger 26 at  996-1016: helix S QSSTLTR  T QSSTLTR   (-1,2,3,6) S QSTR  T QSTR
+      finger 27 at 1024-1044: helix S RSSKLTT  T RSSKLTT   (-1,2,3,6) S RSKT  T RSKT
+      finger 28 at 1052-1072: helix S SSSTLNG  T SSSTLNG   (-1,2,3,6) S SSTG  T SSTG
+      finger 29 at 1080-1100: helix S QSSTLTR  T QSSTLTR   (-1,2,3,6) S QSTR  T QSTR
+      finger 30 at 1108-1128: helix S ESSALTK  T ESSALTK   (-1,2,3,6) S ESAK  T ESAK
+      finger 31 at 1136-1156: helix S QSSILTN  T QSSILTN   (-1,2,3,6) S QSIN  T QSIN
+
+=== case study ZNF721: 23 fingers; the mate with the most reordered fingers ===
+      finger  1 at   99- 119: helix S KFSDLTQ  T KFSDLTQ   (-1,2,3,6) S KSDQ  T KSDQ
+      finger  2 at  155- 175: helix S RSTNLTA  T SSTNLTA   (-1,2,3,6) S RTNA  T STNA   <- moved
+      finger  3 at  211- 231: helix S HSSHLNK  T HSLHLNK   (-1,2,3,6) S HSHK  T HLHK   <- moved
+      finger  4 at  239- 259: helix S SSSSFAK  T SSSSFAK   (-1,2,3,6) S SSSK  T SSSK
+      finger  5 at  267- 287: helix S ISTTLTK  T SSTTLTK   (-1,2,3,6) S ITTK  T STTK   <- moved
+      finger  6 at  295- 315: helix S QSANLYV  T QSAILYV   (-1,2,3,6) S QANV  T QAIV   <- moved
+      finger  7 at  323- 343: helix S QSANLYV  T QSANLYV   (-1,2,3,6) S QANV  T QANV
+      finger  8 at  351- 371: helix S RYTALNQ  T RYTDLNQ   (-1,2,3,6) S RTAQ  T RTDQ   <- moved
+      finger  9 at  379- 399: helix S SSTNLTA  T WSIALNQ   (-1,2,3,6) S STNA  T WIAQ   <- moved
+      finger 10 at  435- 455: helix S HSLHLNK  T RSRNLTT   (-1,2,3,6) S HLHK  T RRNT   <- moved
+      finger 11 at  463- 483: helix S SSSSFAK  T QSSHLNR   (-1,2,3,6) S SSSK  T QSHR   <- moved
+      finger 12 at  491- 511: helix S SSTTLTK  T SSSSFAK   (-1,2,3,6) S STTK  T SSSK   <- moved
+      finger 13 at  519- 539: helix S QSAILYV  T SSTTLTK   (-1,2,3,6) S QAIV  T STTK   <- moved
+      finger 14 at  547- 567: helix S QSANLYV  T QSAILYV   (-1,2,3,6) S QANV  T QAIV   <- moved
+      finger 15 at  575- 595: helix S RYTDLNQ  T QSANLYV   (-1,2,3,6) S RTDQ  T QANV   <- moved
+      finger 16 at  659- 679: helix S WSIALNQ  T RYTALNQ   (-1,2,3,6) S WIAQ  T RTAQ   <- moved
+      finger 17 at  687- 707: helix S RSRNLTT  T RSTNLTA   (-1,2,3,6) S RRNT  T RTNA   <- moved
+      finger 18 at  743- 763: helix S QSSHLNR  T HSSHLNK   (-1,2,3,6) S QSHR  T HSHK   <- moved
+      finger 19 at  771- 791: helix S SSSSFAK  T SSSSFAK   (-1,2,3,6) S SSSK  T SSSK
+      finger 20 at  799- 819: helix S SSTTLTK  T ISTTLTK   (-1,2,3,6) S STTK  T ITTK   <- moved
+      finger 21 at  827- 847: helix S QSAILYV  T QSANLYV   (-1,2,3,6) S QAIV  T QANV   <- moved
+      finger 22 at  855- 875: helix S QSANLYA  T QSANLYA   (-1,2,3,6) S QANA  T QANA
+      finger 23 at  883- 903: helix S QSANLYA  T QSANLYA   (-1,2,3,6) S QANA  T QANA
+
+    elapsed 247s
