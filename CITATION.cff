@@ -16,7 +16,13 @@ authors:
     given-names: Ruqing
     email: ruqing@hotmail.com
     affiliation: "GUT Geoservice Inc., Montreal, Canada"
+doi: 10.5281/zenodo.22998488
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22998488
+    description: "Zenodo archive of the paper, code and data"
 repository-code: "https://github.com/Ruqing1963/zinc-finger-order"
+url: "https://doi.org/10.5281/zenodo.22998488"
 date-released: 2026-09-25
 version: 1.0.0
 license:
@@ -38,6 +44,8 @@ preferred-citation:
       given-names: Zhengyi
     - family-names: Chen
       given-names: Ruqing
+  doi: 10.5281/zenodo.22998488
   publisher:
     name: Zenodo
   year: 2026
+  url: "https://doi.org/10.5281/zenodo.22998488"

@@ -7,7 +7,7 @@ Zhengyi Chen<sup>1</sup> and Ruqing Chen<sup>2</sup>
 <sup>1</sup> Guangxi Key Laboratory of Drug Discovery and Optimization, Guangxi Engineering Research Center for Pharmaceutical Molecular Screening and Druggability Evaluation, School of Pharmacy, Guilin Medical University, Guilin 541199, P. R. China (chenzhengyi@glmc.edu.cn)
 <sup>2</sup> GUT Geoservice Inc., Montreal, Québec, Canada (ruqing@hotmail.com)
 
-DOI: to be assigned (Zenodo)
+DOI: [10.5281/zenodo.22998488](https://doi.org/10.5281/zenodo.22998488)
 
 ## About
 
@@ -52,6 +52,21 @@ python make_figures.py        # needs matplotlib
 cd ../paper
 pdflatex zinc_finger_order
 pdflatex zinc_finger_order
+```
+
+## How to cite
+
+```bibtex
+@misc{ChenChen2026ZincFingerOrder,
+  author    = {Chen, Zhengyi and Chen, Ruqing},
+  title     = {Phenotypic insufficiency of local protein representations: fibre-preserving
+               rearrangements of human C2H2 zinc-finger arrays reorder DNA-recognition residues
+               under an invariant 25-spectrum},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22998488},
+  url       = {https://doi.org/10.5281/zenodo.22998488}
+}
 ```
 
 ## License
